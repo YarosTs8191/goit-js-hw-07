@@ -111,3 +111,24 @@ body {
   max-width: 360;
   max-height: 300;
 }
+
+.input-container {
+  max-width: 408px;
+  max-height: 136px;
+  border-radius: 8px;
+  padding: 24px;
+  gap: 16px;
+  top: -679px;
+  left: 724px;
+}
+
+.input-text {
+  width: 360px;
+  height: 40px;
+}
+
+.input-title {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 4%;
+}

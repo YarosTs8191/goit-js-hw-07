@@ -9,25 +9,17 @@
   </head>
   <body>
     <p><a href="./index.html">Go back</a></p>
-
-    <input type="text" id="name-input" placeholder="Please enter your name" />
-    <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
-
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        margin-top: 50px;
-      }
-      input {
-        padding: 10px;
-        font-size: 16px;
-      }
-      h1 {
-        margin-top: 20px;
-      }
-    </style>
-
+    <div class="input-container">
+      <input
+        class="input-text"
+        type="text"
+        id="name-input"
+        placeholder="Please enter your name"
+      />
+      <h1 class="input-title">
+        Hello, <span id="name-output">Anonymous</span>!
+      </h1>
+    </div>
     <script src="./js/task-3.js" type="module"></script>
   </body>
 </html>
