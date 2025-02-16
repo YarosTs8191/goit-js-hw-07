@@ -10,29 +10,11 @@
   <body>
     <p><a href="./index.html">Go back</a></p>
 
-    <ul class="gallery"></ul>
-    <style>
-      .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        list-style: none;
-        padding: 0;
-        justify-content: center;
-      }
-      .gallery li {
-        flex: 1 1 calc(33.333% - 20px);
-        max-width: 300px;
-      }
-      .gallery img {
-        width: 100%;
-        height: auto;
-        display: block;
-        border-radius: 8px;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-      }
-    </style>
-
+    <ul class="gallery">
+      <ul class="gallery">
+        <ul class="gallery"></ul>
+      </ul>
+    </ul>
     <script src="./js/task-2.js" type="module"></script>
   </body>
 </html>
