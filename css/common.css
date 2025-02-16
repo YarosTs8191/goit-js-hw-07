@@ -74,17 +74,17 @@ body {
   width: 1440px;
   height: 848px;
   display: flex;
-  flex-wrap: wrap; /* Дозволяє переносити елементи на наступний рядок */
-  gap: 16px; /* Відступ між елементами */
-  justify-content: center; /* Вирівнюємо по центру */
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
   align-items: center;
   padding: 20px;
 }
 
 .gallery li {
-  width: calc(100% / 3 - 16px); /* 3 колонки */
-  height: 200px; /* Фіксована висота */
-  background-color: lightgray; /* Візуалізація */
+  width: calc(100% / 3 - 16px);
+  height: 200px;
+  background-color: lightgray;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -134,9 +134,9 @@ body {
 }
 
 .form-container {
-  background-color: #ffffff; /* Білий фон контейнера */
+  background-color: #ffffff;
   padding: 20px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Легка тінь для стилю */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   max-width: 408px;
   max-height: 256px;
@@ -149,7 +149,7 @@ body {
 .form-label {
   font-size: 16px;
   font-weight: bold;
-  color: #333; /* Темний текст для контрасту */
+  color: #333;
   display: flex;
   flex-direction: column;
 }
@@ -161,7 +161,7 @@ body {
 }
 
 .form-btn {
-  background-color: #007bff; /* Синя кнопка */
+  background-color: #007bff;
   color: white;
   padding: 10px;
   border: none;
@@ -174,5 +174,46 @@ body {
 }
 
 .form-btn:hover {
-  background-color: #4e75ff; /* Темніший синій при наведенні */
+  background-color: #4e75ff;
+}
+
+.task-5-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.widget {
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.color {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.change-color {
+  width: 148px;
+  height: 40px;
+  border-radius: 8px;
+  gap: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.change-color:hover {
+  background-color: #0056b3;
 }
