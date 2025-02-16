@@ -132,3 +132,47 @@ body {
   line-height: 32px;
   letter-spacing: 4%;
 }
+
+.form-container {
+  background-color: #ffffff; /* Білий фон контейнера */
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Легка тінь для стилю */
+  border-radius: 10px;
+  max-width: 408px;
+  max-height: 256px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333; /* Темний текст для контрасту */
+  display: flex;
+  flex-direction: column;
+}
+.label-imput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-btn {
+  background-color: #007bff; /* Синя кнопка */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 86px;
+  height: 40px;
+}
+
+.form-btn:hover {
+  background-color: #4e75ff; /* Темніший синій при наведенні */
+}
