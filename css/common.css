@@ -4,11 +4,68 @@
 
 body {
   margin: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+}
+
+.categories-container {
+}
+
+.categories-menu {
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+  max-height: 888px;
+  border-radius: 8px;
+  padding: 24px;
+  gap: 24px;
+  background-color: #ffffff;
+}
+.categories-menu .item {
+  max-width: 392px;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 8px;
+  background-color: #f6f6fe;
+  list-style: none;
+}
+
+.categories-menu .animals-lis {
+  max-height: 264px;
+}
+
+.categories-menu .product-lis {
+  max-height: 216px;
+}
+
+.categories-menu .technologi-lis {
+  max-height: 312px;
+}
+.categories-menu .item h2 {
+}
+
+.categories-menu .item ul {
+  list-style: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.categories-menu .item ul li {
+  max-width: 360;
+  max-height: 184;
+  border: 1px solid;
+  border-radius: 6px;
+  text-align: left;
+  margin-bottom: 8px;
+  width: 29;
+  height: 24;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
 }
